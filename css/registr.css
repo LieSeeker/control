@@ -1,0 +1,341 @@
+html,
+body {
+    font-family: 'Stem';
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #304FFD;
+}
+
+body {
+    background-color: #E9F3F5;
+}
+
+.wrapper {
+    min-height: 900px;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0px 15px;
+}
+
+.main_registr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 40px auto;
+    align-content: center;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #3F434A;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 51px;
+}
+
+.btn-login-google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #E8E9EB;
+    color: #595F69;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: .2s ease border;
+}
+
+.btn-login-google:hover {
+    border: 1px solid #304FFD;
+}
+
+.logo-google {
+    width: 15px;
+    height: 16px;
+    background-image: url(../img/icon/google-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px 0px 0px 14px;
+}
+
+.btn-google {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 10px 128px 11px 98px;
+}
+
+.email-reg {
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8A9099;
+    opacity: 0.6;
+    margin: 36px 0px 31px 0px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email-reg p {
+    padding: 0px 5px 0px 5px;
+}
+
+.line-email {
+    background: #E8E9EB;
+    width: 90px;
+    height: 1px;
+}
+
+.form-reg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.form-reg-fio {
+    margin: 0px 0px 27px 0px;
+}
+
+.fio-registr {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+    margin: 0px 0px 9px 0px;
+}
+
+.input-fio {
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #3F434A;
+    border: 1px solid #E8E9EB;
+    border-radius: 14px;
+    width: 400px;
+    max-width: 100%;
+    padding: 9px 0px 10px 15px;
+    transition: .2s ease border;
+}
+
+.form-reg-email {
+    margin: 0px 0px 27px 0px;
+}
+
+.email-registr {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+    margin: 0px 0px 9px 0px;
+}
+
+.input-email {
+    font-size: 14px;
+    line-height: 18px;
+    color: #3F434A;
+    border: 1px solid #E8E9EB;
+    border-radius: 14px;
+    width: 400px;
+    max-width: 100%;
+    padding: 10px 0px 10px 15px;
+    transition: .2s ease border;
+}
+
+.pass-registr {
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+    margin: 0px 0px 9px 0px;
+}
+
+.form-reg-pass {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 27px 0px;
+    align-items: center;
+}
+
+.input-pass {
+    font-family: Poppins;
+    border: 1px solid #E8E9EB;
+    border-radius: 15px;
+    padding: 0px 0px 9px 17px;
+    max-height: 40px;
+    width: 400px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    color: #3F434A;
+    transition: .2s ease border;
+}
+
+.icon-pass {
+    background-image: url(../img/icon/icon-pass.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    width: 40px;
+    height: 18px;
+    color: #3F434A;
+    position: absolute;
+    margin: 0px 0px 1px 346px;
+}
+
+.form-reg-pass-proof {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px 21px 0px;
+}
+
+.remember-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pol-conf {
+    margin: 19px 0 0 0;
+    color: #304FFD;
+}
+
+.reg-btn {
+    margin: 24px 0px 80px 0px;
+    flex-direction: column;
+}
+
+.reg-btn button {
+    background-color: #304FFD;
+    padding: 10px 126px 9px 123px;
+    max-width: 400px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid #304FFD;
+}
+
+.reg-account {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #8A9099;
+    margin: 0px 0px 51px 0px;
+}
+
+.entrance-account {
+    color: #304FFD;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        min-height: 950px;
+    }
+    .main_registr {
+        margin: 40px auto;
+        max-width: 430px;
+    }
+    .h4 {
+        margin-top: 70px;
+        margin-bottom: 45px;
+    }
+    .btn-google {
+        padding: 10px 82px 10px 63px;
+    }
+    .email-reg {
+        margin: 32px 0px 32px 0px;
+    }
+    .line-email {
+        width: 50px;
+    }
+    .form-reg-fio {
+        margin: 0px 0px 35px 0px;
+    }
+    .input-fio {
+        width: 320px;
+    }
+    .form-reg-email {
+        margin: 0px 0px 30px 0px;
+    }
+    .input-email {
+        width: 320px;
+    }
+    .form-reg-pass {
+        margin: 0px 0px 30px 0px;
+    }
+    .input-pass {
+        width: 320px;
+    }
+    .icon-pass {
+        margin: 0px 0px 0px 266px;
+    }
+    .remember-box p {
+        display: block;
+        margin: 0px 0px 0px 20px;
+    }
+    .reg-btn {
+        margin: 27px 0px 65px 0px;
+    }
+    .reg-btn button {
+        padding: 10px 85px 10px 85px;
+    }
+    .reg-account {
+        margin: 0px 0px 35px 0px;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        min-height: 900px;
+    }
+    .main_registr {
+        margin-top: 46px;
+        margin-bottom: 44px;
+    }
+    .btn-google {
+        padding: 10px 53px 10px 25px;
+    }
+    .line-email {
+        width: 15px;
+    }
+    .input-fio {
+        width: 250px;
+    }
+    .input-email {
+        width: 250px;
+    }
+    .input-pass {
+        width: 250px;
+    }
+    .icon-pass {
+        margin: 0px 0px 1px 200px;
+    }
+    .remember-box p {
+        display: block;
+        margin: 0px 0px 0px 20px;
+    }
+    .reg-btn button {
+        padding: 10px 50px 10px 50px;
+        margin: auto 10px;
+    }
+}
