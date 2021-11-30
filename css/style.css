@@ -7,6 +7,20 @@ body {
     line-height: 1;
     font-size: 14px;
     background-color: #304FFD;
+    overflow: hidden;
+}
+
+a:hover {
+    color: #697ef8;
+}
+
+button:hover {
+    background-color: #697ef8;
+    cursor: pointer;
+}
+
+.chb {
+    cursor: pointer;
 }
 
 .d-flex {
@@ -21,6 +35,11 @@ body {
 a {
     text-decoration: none;
     color: #304FFD;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
 }
 
 .wrapper {
@@ -213,7 +232,7 @@ input.pass-input {
 }
 
 .btn {
-    margin-bottom: 181px;
+    margin-bottom: 160px;
 }
 
 button {
@@ -230,6 +249,7 @@ button {
 }
 
 .no-account {
+    margin-top: 20px;
     font-family: Stem;
     font-style: normal;
     font-weight: normal;
