@@ -28,7 +28,7 @@ button:hover {
 }
 
 .wh {
-    max-width: 1440px;
+    max-width: 100%;
     padding: 0px 15px;
 }
 
@@ -48,7 +48,7 @@ p {
 
 .container {
     background-repeat: no-repeat;
-    background-position: 5% 40%;
+    background-position: 20% 20%;
     background-image: url(../img/bg/bg.svg);
 }
 
@@ -71,7 +71,7 @@ img {
     align-items: center;
     max-width: 600px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 74px 0px 0px 54%;
+    margin: 74px 0px 0px 50%;
     background: #fff;
     border: none;
     border-radius: 15px;
@@ -218,6 +218,7 @@ input.pass-input {
 .remember-box {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .no-pass {
@@ -232,7 +233,7 @@ input.pass-input {
 }
 
 .btn {
-    margin-bottom: 160px;
+    margin-bottom: 110px;
 }
 
 button {
@@ -242,6 +243,7 @@ button {
     background: #304FFD;
     border: none;
     border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .no-pass-two {
@@ -249,7 +251,6 @@ button {
 }
 
 .no-account {
-    margin-top: 20px;
     font-family: Stem;
     font-style: normal;
     font-weight: normal;
