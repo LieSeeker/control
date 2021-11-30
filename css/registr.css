@@ -6,11 +6,30 @@ body {
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
+    overflow: hidden;
+}
+
+a:hover {
+    color: #697ef8;
+}
+
+button:hover {
+    background-color: #697ef8;
+    cursor: pointer;
+}
+
+.chb {
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
     color: #304FFD;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
 }
 
 body {
@@ -24,6 +43,10 @@ body {
 .container {
     max-width: 1400px;
     padding: 0px 15px;
+}
+
+p {
+    font-weight: 400;
 }
 
 .main_registr {
@@ -222,7 +245,7 @@ h4 {
     flex-direction: column;
 }
 
-.reg-btn button {
+button {
     background-color: #304FFD;
     padding: 10px 126px 9px 123px;
     max-width: 400px;
