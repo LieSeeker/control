@@ -90,7 +90,7 @@ img {
 
 h4 {
     margin-top: 0%;
-    font-family: Stem;
+    font-family: 'Stem';
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -209,7 +209,7 @@ input.email-input {
 }
 
 input.pass-input {
-    font-family: Poppins;
+    font-family: 'Poppins';
     width: 400px;
     height: 40px;
     padding-left: 16px;
@@ -248,7 +248,7 @@ input.pass-input {
 }
 
 button {
-    font-family: Stem;
+    font-family: 'Stem';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
