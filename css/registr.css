@@ -101,6 +101,7 @@ h4 {
     font-size: 15px;
     line-height: 19px;
     padding: 10px 128px 11px 98px;
+    white-space: nowrap;
 }
 
 .email-reg {
@@ -146,19 +147,21 @@ h4 {
 }
 
 .input-fio {
-    font-size: 23px;
-    line-height: 18px;
     display: flex;
     align-items: center;
     color: #3F434A;
     border: 1px solid #E8E9EB;
     border-radius: 14px;
-    width: 400px;
-    font-weight: 500;
+    width: 383px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
     max-width: 100%;
     padding: 9px 0px 10px 15px;
     transition: .2s ease border;
-    max-height: 40px;
+    max-height: 32px;
 }
 
 .form-reg-email {
@@ -173,17 +176,19 @@ h4 {
 }
 
 .input-email {
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     color: #3F434A;
     border: 1px solid #E8E9EB;
     border-radius: 14px;
-    width: 400px;
+    width: 383px;
     max-width: 100%;
     padding: 10px 0px 10px 15px;
     transition: .2s ease border;
-    max-height: 40px;
-    font-size: 23px;
+    max-height: 32px;
 }
 
 .pass-registr {
@@ -202,14 +207,15 @@ h4 {
 
 .input-pass {
     font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
     border: 1px solid #E8E9EB;
     border-radius: 15px;
     padding: 0px 0px 9px 17px;
-    max-height: 40px;
-    width: 400px;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 60px;
+    max-height: 32px;
+    width: 383px;
     letter-spacing: 0.03em;
     color: #3F434A;
     transition: .2s ease border;
@@ -240,7 +246,7 @@ h4 {
 }
 
 .pol-conf {
-    margin: 19px 0 0 0;
+    margin: 19px 0 0 5px;
     color: #304FFD;
 }
 
@@ -250,17 +256,20 @@ h4 {
 }
 
 button {
-    background-color: #304FFD;
-    padding: 10px 126px 9px 123px;
-    max-width: 400px;
+    font-family: 'Stem';
+    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 19px;
+    background-color: #304FFD;
+    padding: 10px 150px 9px 120px;
+    max-width: 400px;
     color: #FFFFFF;
     width: 100%;
-    border-radius: 14px;
-    border: 1px solid #304FFD;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .reg-account {
