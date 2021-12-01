@@ -6,7 +6,10 @@ body {
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
-    overflow: hidden;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 a:hover {
@@ -18,7 +21,8 @@ button:hover {
     cursor: pointer;
 }
 
-.chb {
+.chb,
+label {
     cursor: pointer;
 }
 
@@ -176,7 +180,7 @@ h4 {
 }
 
 .input-email {
-    font-family: Stem;
+    font-family: 'Stem';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -243,6 +247,15 @@ h4 {
 .remember-box {
     display: flex;
     justify-content: space-between;
+}
+
+label {
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.285;
+    font-family: 'Stem';
+    font-style: normal;
 }
 
 .pol-conf {
