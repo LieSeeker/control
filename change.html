@@ -5,61 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Авторизация</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="/img/icon/myIcon.ico" type="image/x-icon" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/change.css">
 </head>
 
 <body>
-    <div class="wrapper wh">
+    <div class="wrapper">
         <div class="container">
-            <div class="autoriz-main d-flex">
-                <div class="autoriz">
-                    <form>
-                        <h4>Авторизация</h4>
-                        <a href="#" class="btn-login-google">
-                            <span class="logo-google"></span>
-                            <span class="btn-google">Войти через Google</span>
-                        </a>
-                        <!-- /.google-input -->
-                        <div class="email">
-                            <div class="line-email"></div>
-                            <p>Или через электроную почту</p>
-                            <div class="line-email"></div>
-                        </div>
+            <div class="main-change">
+                <img src="img/bg/lock.svg" alt="lock">
+                <form class="form-change">
+                    <h4><b>Изменение пароля</b></h4>
+                    <div class="email-change">
+                        <p>Email</p>
+                        <input type="text" class="input-email" placeholder="cooper@example.com">
+                    </div>
 
-                        <!-- /.email -->
-                        <div class="input-block-email">
-                            <p>Email</p>
-                            <input class="email-input d-flex" type="email" placeholder="cooper@example.com" required aria-required="true">
-                        </div>
-                        <!-- /.email-input -->
-                        <div class="input-block-password">
-                            <p>Пароль</p>
-                            <input class="pass-input" type="password" placeholder="········" maxlength="31" minlength="6" required aria-required="true">
-                        </div>
-
-                        <div class="remember-box">
-                            <label class="remember">
-                                <input class="chb" checked type="checkbox" checked>Запомнить меня
-                            </label>
-                            <a class="no-pass" href="../ControlR/recovery.html">Забыли пароль?</a>
-                        </div>
-                        <!-- /.remember -->
-                        <div class="btn">
-                            <button type="submit">Войти</button>
-                        </div>
-                        <a href="../ControlR/recovery.html" class="no-pass-two">Забыли пароль?</a>
-                    </form>
-                    <p class="no-account">Ещё нет аккаунта?<a class="registration" href="../ControlR/registr.html">Зарегистрироваться</a></p>
+                    <p>Новый пароль</p>
+                    <div class="pass-change">
+                        <input type="password" class="input-pass" placeholder="········" maxlength="31" minlength="6">
+                        <span class=" icon-pass ">
+                  </span>
+                    </div>
+                    <p>Подтверждение пароля</p>
+                    <div class="pass-change-proof ">
+                        <input type="password" class="input-pass-proof " placeholder="········ " maxlength="31 " minlength="6 ">
+                        <span class="icon-pass">
+                  </span>
+                    </div>
+                    <div class="btn-change ">
+                        <button type="submit ">Изменить пароль</button>
+                    </div>
+                </form>
+                <div class="autoriz-change ">
+                    <p>Обратно к <a href="../ControlR/index.html ">Авторизации</a></p>
                 </div>
-                <!-- /.autoriz -->
             </div>
-            <!-- /.autoriz -->
         </div>
-        <!-- /.container -->
     </div>
-
 </body>
 
 </html>
